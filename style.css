@@ -27,6 +27,26 @@ p {
   color: #4ecca3;
 }
 
+.btn {
+  outline: none;
+  border: 0px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 45%;
+  width: 100px;
+  height: 50px;
+  font-size: 1rem;
+  font-family: "Indie Flower", cursive;
+  background-color: #4ecca3;
+  color: #393e46;
+}
+
+.btn1 {
+  box-shadow: 0 3px 4px 0 #393e46;
+  opacity: 0.5;
+}
+
 img {
   width: 80%;
 }

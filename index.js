@@ -1,3 +1,11 @@
+const refershButton = document.querySelector(".btn");
+const refershPage = function () {
+  refershButton.classList.add("btn1");
+  location.reload();
+};
+
+refershButton.addEventListener("click", refershPage);
+
 let randomImage1 = Math.floor(Math.random() * 6) + 1;
 let pickRandomImage1 = "dice" + randomImage1 + ".png";
 let randomImageSource1 = "images/" + pickRandomImage1;
